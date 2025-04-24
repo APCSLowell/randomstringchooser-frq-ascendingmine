@@ -4,7 +4,7 @@ public class RandomStringChooser
   /* to be implemented in part (a) */
   private ArrayList<String> words;
   public RandomStringChooser(String[] wordArray){
-    words new ArrayList<String>();
+    words = new ArrayList<String>();
     for(String w : wordArray)
       words.add(w);
   }
